@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favico.png" type="image/x-icon">
     <title>Vídeos com HTML5</title>
 </head>
 <body>
@@ -11,13 +12,20 @@
     
     <p>Este vídeo está hospedado no meu próprio servidor.</p>
 
-    <video width="500" poster="imagens/limoes-capa.png" controls>
+    <video width="560" poster="imagens/limoes-capa.png" controls autoplay loop>
         <source src="media/limao-5mb.m4v" type="video/mp4">
         <source src="media/limao-7mb.webm" type="video/webm">
         <source src="media/limao-21mb.mp4" type="video/mp4">
         <p>Seu navegador não é compatível com reprodução de vídeos.</p>
     </video>
 
+    <h1>Inserindo vídeos do YouTube</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QK7ue908ArE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeo do Vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/9821135?h=cefb160b8d&loop=1&color=ff0179&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     
 </body>
 </html>
