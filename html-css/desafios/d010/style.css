@@ -5,6 +5,24 @@
     src: url(fontes/idroid.otf) format ('opentype');
 }
 
-.titulo{
-    font-family: android;
+/* #1B5936 #41D983 #2A8C4C #32A65A #41D983*/
+
+header{
+    background-image: linear-gradient(to top, #1B5936, #41D983);
+    color: white;
+}
+
+#titulo-pagina{
+    text-align: center;
+}
+
+#titulo{
+    font-family: 'android', 'Times New Roman', Times, serif;
+    color: green;
+    font-weight: bold;
+}
+
+.item-menu{
+    display: inline;
+    margin: 5px;
 }
