@@ -10,6 +10,7 @@
 header{
     background-image: linear-gradient(to top, #1B5936, #41D983);
     color: white;
+    text-align: center;
 }
 
 #titulo-pagina{
@@ -22,7 +23,33 @@ header{
     font-weight: bold;
 }
 
+.menu{
+    text-align: left;
+}
+
 .item-menu{
     display: inline;
     margin: 5px;
+}
+
+main{
+    background-color: #57e795d3;
+}
+
+.conteudo{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #843b8ac5;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    text-align: justify;
+}
+
+div:imagens{
+    /* max-width:400px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    text-align: center; */
 }
