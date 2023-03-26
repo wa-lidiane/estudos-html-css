@@ -7,6 +7,11 @@
 
 /* #1B5936 #41D983 #2A8C4C #32A65A #41D983*/
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;    
+}
+
 header{
     background-image: linear-gradient(to top, #1B5936, #41D983);
     color: white;
